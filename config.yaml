@@ -1,0 +1,37 @@
+seed: 42
+sequence_length: 30
+batch_size: 64
+local_epochs: 2
+rounds: 15
+learning_rate: 0.001
+fedprox_mu: 0.01
+algorithm: fedavg          # fedavg or fedprox
+train_fraction: 0.70
+validation_fraction: 0.15
+num_workers: 0
+# The default input columns expected in each CSV.
+feature_columns:
+  - gnss_x
+  - gnss_y
+  - gnss_z
+  - gnss_speed
+  - gnss_cn0
+  - gnss_satellites
+  - gnss_hdop
+  - accel_x
+  - accel_y
+  - accel_z
+  - gyro_x
+  - gyro_y
+  - gyro_z
+# Ground-truth coordinates are used ONLY to construct the target error.
+gnss_position_columns: [gnss_x, gnss_y, gnss_z]
+ground_truth_columns: [gt_x, gt_y, gt_z]
+# Classification thresholds: <= high_threshold = High; <= medium_threshold = Medium; else Low.
+high_threshold_m: 2.0
+medium_threshold_m: 5.0
+clients:
+  Medium_Urban_Canyon: data/sample/Medium_Urban_Canyon.csv
+  Deep_Urban_Canyon: data/sample/Deep_Urban_Canyon.csv
+  Harsh_Urban_Canyon: data/sample/Harsh_Urban_Canyon.csv
+  Tunnel: data/sample/Tunnel.csv
