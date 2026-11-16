@@ -1,0 +1,1637 @@
+[
+  {
+    "round": 1,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 3.026794910430908,
+        "position_error_RMSE_m": 3.210934826926351,
+        "position_error_R2": -7.401302337646484,
+        "quality_accuracy": 0.03625377643504532,
+        "quality_macro_precision": 0.012084592145015107,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.023323615160349854,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            83
+          ],
+          [
+            0,
+            0,
+            236
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 1.9017229080200195,
+        "position_error_RMSE_m": 2.3366975600322237,
+        "position_error_R2": -0.05534052848815918,
+        "quality_accuracy": 0.5347432024169184,
+        "quality_macro_precision": 0.1782477341389728,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.23228346456692914,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            21
+          ],
+          [
+            0,
+            0,
+            133
+          ],
+          [
+            0,
+            0,
+            177
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 3.524332284927368,
+        "position_error_RMSE_m": 4.678342087677113,
+        "position_error_R2": -0.546127200126648,
+        "quality_accuracy": 0.8489425981873112,
+        "quality_macro_precision": 0.28298086606243705,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.30610021786492375,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            46
+          ],
+          [
+            0,
+            0,
+            281
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 5.716056823730469,
+        "position_error_RMSE_m": 7.133410392178638,
+        "position_error_R2": -1.3218531608581543,
+        "quality_accuracy": 0.9274924471299094,
+        "quality_macro_precision": 0.30916414904330314,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.3207941483803553,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            22
+          ],
+          [
+            0,
+            0,
+            307
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 2,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 3.8199775218963623,
+        "position_error_RMSE_m": 3.9762185778031363,
+        "position_error_R2": -11.883211135864258,
+        "quality_accuracy": 0.03625377643504532,
+        "quality_macro_precision": 0.012084592145015107,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.023323615160349854,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            83
+          ],
+          [
+            0,
+            0,
+            236
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 2.1934726238250732,
+        "position_error_RMSE_m": 2.6464637445863324,
+        "position_error_R2": -0.3536907434463501,
+        "quality_accuracy": 0.5347432024169184,
+        "quality_macro_precision": 0.1782477341389728,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.23228346456692914,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            21
+          ],
+          [
+            0,
+            0,
+            133
+          ],
+          [
+            0,
+            0,
+            177
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 3.1867852210998535,
+        "position_error_RMSE_m": 4.237278242131984,
+        "position_error_R2": -0.268338680267334,
+        "quality_accuracy": 0.8489425981873112,
+        "quality_macro_precision": 0.28298086606243705,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.30610021786492375,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            46
+          ],
+          [
+            0,
+            0,
+            281
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 5.102219581604004,
+        "position_error_RMSE_m": 6.513744201716139,
+        "position_error_R2": -0.9359838962554932,
+        "quality_accuracy": 0.9274924471299094,
+        "quality_macro_precision": 0.30916414904330314,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.3207941483803553,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            22
+          ],
+          [
+            0,
+            0,
+            307
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 3,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 3.9023895263671875,
+        "position_error_RMSE_m": 4.055915778781092,
+        "position_error_R2": -12.404834747314453,
+        "quality_accuracy": 0.03625377643504532,
+        "quality_macro_precision": 0.012084592145015107,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.023323615160349854,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            83
+          ],
+          [
+            0,
+            0,
+            236
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 2.232638359069824,
+        "position_error_RMSE_m": 2.6883610964920313,
+        "position_error_R2": -0.39689183235168457,
+        "quality_accuracy": 0.5347432024169184,
+        "quality_macro_precision": 0.1782477341389728,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.23228346456692914,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            21
+          ],
+          [
+            0,
+            0,
+            133
+          ],
+          [
+            0,
+            0,
+            177
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 3.1639862060546875,
+        "position_error_RMSE_m": 4.200633164772348,
+        "position_error_R2": -0.24649572372436523,
+        "quality_accuracy": 0.8489425981873112,
+        "quality_macro_precision": 0.28298086606243705,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.30610021786492375,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            46
+          ],
+          [
+            0,
+            0,
+            281
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 5.046268463134766,
+        "position_error_RMSE_m": 6.4520493319778165,
+        "position_error_R2": -0.8994841575622559,
+        "quality_accuracy": 0.9274924471299094,
+        "quality_macro_precision": 0.30916414904330314,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.3207941483803553,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            22
+          ],
+          [
+            0,
+            0,
+            307
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 4,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 3.951577663421631,
+        "position_error_RMSE_m": 4.103735241103786,
+        "position_error_R2": -12.722785949707031,
+        "quality_accuracy": 0.03625377643504532,
+        "quality_macro_precision": 0.012084592145015107,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.023323615160349854,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            83
+          ],
+          [
+            0,
+            0,
+            236
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 2.248514413833618,
+        "position_error_RMSE_m": 2.70552926278138,
+        "position_error_R2": -0.41479015350341797,
+        "quality_accuracy": 0.5347432024169184,
+        "quality_macro_precision": 0.1782477341389728,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.23228346456692914,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            21
+          ],
+          [
+            0,
+            0,
+            133
+          ],
+          [
+            0,
+            0,
+            177
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 3.161377429962158,
+        "position_error_RMSE_m": 4.19451680798175,
+        "position_error_R2": -0.24286842346191406,
+        "quality_accuracy": 0.8489425981873112,
+        "quality_macro_precision": 0.28298086606243705,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.30610021786492375,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            46
+          ],
+          [
+            0,
+            0,
+            281
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 5.03302001953125,
+        "position_error_RMSE_m": 6.436200945991937,
+        "position_error_R2": -0.8901641368865967,
+        "quality_accuracy": 0.9274924471299094,
+        "quality_macro_precision": 0.30916414904330314,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.3207941483803553,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            22
+          ],
+          [
+            0,
+            0,
+            307
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 5,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 3.9868762493133545,
+        "position_error_RMSE_m": 4.139233164510734,
+        "position_error_R2": -12.961221694946289,
+        "quality_accuracy": 0.03625377643504532,
+        "quality_macro_precision": 0.012084592145015107,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.023323615160349854,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            83
+          ],
+          [
+            0,
+            0,
+            236
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 2.246626377105713,
+        "position_error_RMSE_m": 2.704074494407906,
+        "position_error_R2": -0.41326916217803955,
+        "quality_accuracy": 0.5347432024169184,
+        "quality_macro_precision": 0.1782477341389728,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.23228346456692914,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            21
+          ],
+          [
+            0,
+            0,
+            133
+          ],
+          [
+            0,
+            0,
+            177
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 3.1710610389709473,
+        "position_error_RMSE_m": 4.2044351230551165,
+        "position_error_R2": -0.24875307083129883,
+        "quality_accuracy": 0.8489425981873112,
+        "quality_macro_precision": 0.28298086606243705,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.30610021786492375,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            46
+          ],
+          [
+            0,
+            0,
+            281
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 5.025733470916748,
+        "position_error_RMSE_m": 6.423057874161962,
+        "position_error_R2": -0.8824523687362671,
+        "quality_accuracy": 0.9274924471299094,
+        "quality_macro_precision": 0.30916414904330314,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.3207941483803553,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            22
+          ],
+          [
+            0,
+            0,
+            307
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 6,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 4.128126621246338,
+        "position_error_RMSE_m": 4.278896603826766,
+        "position_error_R2": -13.919258117675781,
+        "quality_accuracy": 0.03625377643504532,
+        "quality_macro_precision": 0.012084592145015107,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.023323615160349854,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            83
+          ],
+          [
+            0,
+            0,
+            236
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 2.2839155197143555,
+        "position_error_RMSE_m": 2.752031789485164,
+        "position_error_R2": -0.46384286880493164,
+        "quality_accuracy": 0.5347432024169184,
+        "quality_macro_precision": 0.1782477341389728,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.23228346456692914,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            21
+          ],
+          [
+            0,
+            0,
+            133
+          ],
+          [
+            0,
+            0,
+            177
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 3.1568753719329834,
+        "position_error_RMSE_m": 4.173461840868156,
+        "position_error_R2": -0.23042213916778564,
+        "quality_accuracy": 0.8489425981873112,
+        "quality_macro_precision": 0.28298086606243705,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.30610021786492375,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            46
+          ],
+          [
+            0,
+            0,
+            281
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 4.944822311401367,
+        "position_error_RMSE_m": 6.324963342613172,
+        "position_error_R2": -0.8253929615020752,
+        "quality_accuracy": 0.9274924471299094,
+        "quality_macro_precision": 0.30916414904330314,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.3207941483803553,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            22
+          ],
+          [
+            0,
+            0,
+            307
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 7,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 4.629024028778076,
+        "position_error_RMSE_m": 4.768224188737617,
+        "position_error_R2": -17.526653289794922,
+        "quality_accuracy": 0.03625377643504532,
+        "quality_macro_precision": 0.012084592145015107,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.023323615160349854,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            83
+          ],
+          [
+            0,
+            0,
+            236
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 2.51082444190979,
+        "position_error_RMSE_m": 3.009955576572022,
+        "position_error_R2": -0.7510871887207031,
+        "quality_accuracy": 0.5347432024169184,
+        "quality_macro_precision": 0.1782477341389728,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.23228346456692914,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            21
+          ],
+          [
+            0,
+            0,
+            133
+          ],
+          [
+            0,
+            0,
+            177
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 3.0419363975524902,
+        "position_error_RMSE_m": 3.967201711862837,
+        "position_error_R2": -0.111808180809021,
+        "quality_accuracy": 0.8489425981873112,
+        "quality_macro_precision": 0.28298086606243705,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.30610021786492375,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            46
+          ],
+          [
+            0,
+            0,
+            281
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 4.638675212860107,
+        "position_error_RMSE_m": 5.965312507162174,
+        "position_error_R2": -0.6237034797668457,
+        "quality_accuracy": 0.9274924471299094,
+        "quality_macro_precision": 0.30916414904330314,
+        "quality_macro_recall": 0.3333333333333333,
+        "quality_macro_f1": 0.3207941483803553,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            22
+          ],
+          [
+            0,
+            0,
+            307
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 8,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 4.7032246589660645,
+        "position_error_RMSE_m": 4.854742166133418,
+        "position_error_R2": -18.2050724029541,
+        "quality_accuracy": 0.045317220543806644,
+        "quality_macro_precision": 0.2622324159021407,
+        "quality_macro_recall": 0.3375706214689265,
+        "quality_macro_f1": 0.03193215339233038,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            1,
+            82
+          ],
+          [
+            0,
+            3,
+            233
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 2.4686689376831055,
+        "position_error_RMSE_m": 2.9733303674189853,
+        "position_error_R2": -0.7087317705154419,
+        "quality_accuracy": 0.5226586102719033,
+        "quality_macro_precision": 0.28832630098452877,
+        "quality_macro_recall": 0.3289155091117624,
+        "quality_macro_f1": 0.24970304990588965,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            1,
+            20
+          ],
+          [
+            0,
+            5,
+            128
+          ],
+          [
+            0,
+            9,
+            168
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 2.956942319869995,
+        "position_error_RMSE_m": 3.8342518880739602,
+        "position_error_R2": -0.038538455963134766,
+        "quality_accuracy": 0.8277945619335347,
+        "quality_macro_precision": 0.39158794421952314,
+        "quality_macro_recall": 0.3613904791376554,
+        "quality_macro_f1": 0.36283132269641544,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            6,
+            40
+          ],
+          [
+            0,
+            13,
+            268
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 4.402515888214111,
+        "position_error_RMSE_m": 5.683708855685799,
+        "position_error_R2": -0.4740220308303833,
+        "quality_accuracy": 0.918429003021148,
+        "quality_macro_precision": 0.3663247863247863,
+        "quality_macro_recall": 0.34414174316454443,
+        "quality_macro_f1": 0.3434297769740808,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            21
+          ],
+          [
+            0,
+            4,
+            303
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 9,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 3.7146925926208496,
+        "position_error_RMSE_m": 3.9343348300328445,
+        "position_error_R2": -11.613228797912598,
+        "quality_accuracy": 0.24471299093655588,
+        "quality_macro_precision": 0.2443933458241072,
+        "quality_macro_recall": 0.378060263653484,
+        "quality_macro_f1": 0.16740412979351035,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            30,
+            53
+          ],
+          [
+            0,
+            71,
+            165
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 1.9005247354507446,
+        "position_error_RMSE_m": 2.3549255453274194,
+        "position_error_R2": -0.07186949253082275,
+        "quality_accuracy": 0.5468277945619335,
+        "quality_macro_precision": 0.357350254061225,
+        "quality_macro_recall": 0.38136301204989875,
+        "quality_macro_f1": 0.36891060802499914,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            12,
+            9
+          ],
+          [
+            0,
+            65,
+            68
+          ],
+          [
+            0,
+            61,
+            116
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 2.958800792694092,
+        "position_error_RMSE_m": 3.862962545704605,
+        "position_error_R2": -0.054149627685546875,
+        "quality_accuracy": 0.6616314199395771,
+        "quality_macro_precision": 0.39126819658710055,
+        "quality_macro_recall": 0.4537108669864356,
+        "quality_macro_f1": 0.38001380262249823,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            32,
+            14
+          ],
+          [
+            0,
+            94,
+            187
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 4.4328718185424805,
+        "position_error_RMSE_m": 5.732631823774585,
+        "position_error_R2": -0.4995068311691284,
+        "quality_accuracy": 0.7492447129909365,
+        "quality_macro_precision": 0.3533495490017229,
+        "quality_macro_recall": 0.3958641792518014,
+        "quality_macro_f1": 0.3445238095238095,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            9,
+            13
+          ],
+          [
+            0,
+            68,
+            239
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 10,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 2.6671690940856934,
+        "position_error_RMSE_m": 2.921500931728723,
+        "position_error_R2": -5.954977035522461,
+        "quality_accuracy": 0.49244712990936557,
+        "quality_macro_precision": 0.25176242258184206,
+        "quality_macro_recall": 0.44114877589453866,
+        "quality_macro_f1": 0.26900584795321636,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            70,
+            13
+          ],
+          [
+            0,
+            155,
+            81
+          ],
+          [
+            0,
+            4,
+            8
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 1.629438042640686,
+        "position_error_RMSE_m": 2.006451334610536,
+        "position_error_R2": 0.22188305854797363,
+        "quality_accuracy": 0.552870090634441,
+        "quality_macro_precision": 0.4040464916056823,
+        "quality_macro_recall": 0.4119196295824306,
+        "quality_macro_f1": 0.3782032225459302,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            20,
+            1
+          ],
+          [
+            0,
+            108,
+            25
+          ],
+          [
+            0,
+            102,
+            75
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 3.0755615234375,
+        "position_error_RMSE_m": 4.042417921791232,
+        "position_error_R2": -0.1543663740158081,
+        "quality_accuracy": 0.5589123867069486,
+        "quality_macro_precision": 0.3972392260982865,
+        "quality_macro_recall": 0.46791995461344066,
+        "quality_macro_f1": 0.3431388548891609,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            41,
+            5
+          ],
+          [
+            0,
+            137,
+            144
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 4.615261077880859,
+        "position_error_RMSE_m": 5.933667039952244,
+        "position_error_R2": -0.6065220832824707,
+        "quality_accuracy": 0.5861027190332326,
+        "quality_macro_precision": 0.36220714408633875,
+        "quality_macro_recall": 0.44975816799921037,
+        "quality_macro_f1": 0.3075855965749411,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            17,
+            5
+          ],
+          [
+            0,
+            130,
+            177
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 11,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 3.100313663482666,
+        "position_error_RMSE_m": 3.327809063596847,
+        "position_error_R2": -8.024027824401855,
+        "quality_accuracy": 0.3987915407854985,
+        "quality_macro_precision": 0.24277827072858127,
+        "quality_macro_recall": 0.3973634651600753,
+        "quality_macro_f1": 0.23036837376460018,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            56,
+            27
+          ],
+          [
+            0,
+            124,
+            112
+          ],
+          [
+            0,
+            4,
+            8
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 1.7084614038467407,
+        "position_error_RMSE_m": 2.0651154551893023,
+        "position_error_R2": 0.17571717500686646,
+        "quality_accuracy": 0.5438066465256798,
+        "quality_macro_precision": 0.38379410215903104,
+        "quality_macro_recall": 0.39941662064766437,
+        "quality_macro_f1": 0.37429201576488397,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            20,
+            1
+          ],
+          [
+            0,
+            97,
+            36
+          ],
+          [
+            0,
+            94,
+            83
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 2.854614019393921,
+        "position_error_RMSE_m": 3.800635339929573,
+        "position_error_R2": -0.020407557487487793,
+        "quality_accuracy": 0.5740181268882175,
+        "quality_macro_precision": 0.3937099095144021,
+        "quality_macro_recall": 0.4617308783330755,
+        "quality_macro_f1": 0.3480304968743824,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            39,
+            7
+          ],
+          [
+            0,
+            130,
+            151
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 4.306189060211182,
+        "position_error_RMSE_m": 5.643199724004105,
+        "position_error_R2": -0.4530855417251587,
+        "quality_accuracy": 0.5891238670694864,
+        "quality_macro_precision": 0.3590522028878193,
+        "quality_macro_recall": 0.43677820550784724,
+        "quality_macro_f1": 0.3060394889663182,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            16,
+            6
+          ],
+          [
+            0,
+            128,
+            179
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 12,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 3.037442445755005,
+        "position_error_RMSE_m": 3.2631290516282934,
+        "position_error_R2": -7.6766510009765625,
+        "quality_accuracy": 0.41389728096676737,
+        "quality_macro_precision": 0.2473714229033378,
+        "quality_macro_recall": 0.4044256120527307,
+        "quality_macro_f1": 0.23723879082978294,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            55,
+            28
+          ],
+          [
+            0,
+            129,
+            107
+          ],
+          [
+            0,
+            4,
+            8
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 1.689249873161316,
+        "position_error_RMSE_m": 2.0488010110142847,
+        "position_error_R2": 0.18868941068649292,
+        "quality_accuracy": 0.5438066465256798,
+        "quality_macro_precision": 0.38378591105863835,
+        "quality_macro_recall": 0.39879359415487875,
+        "quality_macro_f1": 0.37450838437004713,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            21,
+            0
+          ],
+          [
+            0,
+            96,
+            37
+          ],
+          [
+            0,
+            93,
+            84
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 2.8956260681152344,
+        "position_error_RMSE_m": 3.8546736650098805,
+        "position_error_R2": -0.04963064193725586,
+        "quality_accuracy": 0.5709969788519638,
+        "quality_macro_precision": 0.3975591263726857,
+        "quality_macro_recall": 0.47266491309505393,
+        "quality_macro_f1": 0.3493909248664158,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            41,
+            5
+          ],
+          [
+            0,
+            133,
+            148
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 4.386575222015381,
+        "position_error_RMSE_m": 5.7209588459617065,
+        "position_error_R2": -0.4934062957763672,
+        "quality_accuracy": 0.5861027190332326,
+        "quality_macro_precision": 0.35874494725426403,
+        "quality_macro_recall": 0.43569242917777123,
+        "quality_macro_f1": 0.30480000964099346,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            16,
+            6
+          ],
+          [
+            0,
+            129,
+            178
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 13,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 2.986018657684326,
+        "position_error_RMSE_m": 3.205222582772489,
+        "position_error_R2": -7.371437072753906,
+        "quality_accuracy": 0.4561933534743202,
+        "quality_macro_precision": 0.24973942047112777,
+        "quality_macro_recall": 0.39783427495291906,
+        "quality_macro_f1": 0.25078411745078416,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            59,
+            24
+          ],
+          [
+            0,
+            144,
+            92
+          ],
+          [
+            0,
+            5,
+            7
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 1.653120756149292,
+        "position_error_RMSE_m": 2.0258488371284704,
+        "position_error_R2": 0.20676541328430176,
+        "quality_accuracy": 0.552870090634441,
+        "quality_macro_precision": 0.4008385744234801,
+        "quality_macro_recall": 0.4100505501040737,
+        "quality_macro_f1": 0.3792763092958525,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            21,
+            0
+          ],
+          [
+            0,
+            105,
+            28
+          ],
+          [
+            0,
+            99,
+            78
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 2.9844601154327393,
+        "position_error_RMSE_m": 3.953313529000899,
+        "position_error_R2": -0.10403740406036377,
+        "quality_accuracy": 0.5377643504531722,
+        "quality_macro_precision": 0.4003529323421191,
+        "quality_macro_recall": 0.47173655165299916,
+        "quality_macro_f1": 0.33474134803260736,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            43,
+            3
+          ],
+          [
+            0,
+            146,
+            135
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 4.549438953399658,
+        "position_error_RMSE_m": 5.876755796994611,
+        "position_error_R2": -0.5758527517318726,
+        "quality_accuracy": 0.5317220543806647,
+        "quality_macro_precision": 0.35710286743586,
+        "quality_macro_recall": 0.4302141940578423,
+        "quality_macro_f1": 0.28501780518765657,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            17,
+            5
+          ],
+          [
+            0,
+            148,
+            159
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 14,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 3.4190115928649902,
+        "position_error_RMSE_m": 3.630438441130948,
+        "position_error_R2": -9.739937782287598,
+        "quality_accuracy": 0.2719033232628399,
+        "quality_macro_precision": 0.2305631067961165,
+        "quality_macro_recall": 0.3644067796610169,
+        "quality_macro_f1": 0.17710742331444254,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            41,
+            42
+          ],
+          [
+            0,
+            81,
+            155
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 1.7618299722671509,
+        "position_error_RMSE_m": 2.149812903136841,
+        "position_error_R2": 0.10671734809875488,
+        "quality_accuracy": 0.5558912386706949,
+        "quality_macro_precision": 0.37440127077223856,
+        "quality_macro_recall": 0.3982272064341645,
+        "quality_macro_f1": 0.3818835211395745,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            17,
+            4
+          ],
+          [
+            0,
+            83,
+            50
+          ],
+          [
+            0,
+            76,
+            101
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 2.80949068069458,
+        "position_error_RMSE_m": 3.7487596367854916,
+        "position_error_R2": 0.007257819175720215,
+        "quality_accuracy": 0.6042296072507553,
+        "quality_macro_precision": 0.39495614035087717,
+        "quality_macro_recall": 0.4675331373459178,
+        "quality_macro_f1": 0.3619153993756623,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            38,
+            8
+          ],
+          [
+            0,
+            119,
+            162
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 4.268055438995361,
+        "position_error_RMSE_m": 5.5849866364540315,
+        "position_error_R2": -0.4232611656188965,
+        "quality_accuracy": 0.6404833836858006,
+        "quality_macro_precision": 0.36126550357675874,
+        "quality_macro_recall": 0.4411706642977001,
+        "quality_macro_f1": 0.3241264879584269,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            15,
+            7
+          ],
+          [
+            0,
+            110,
+            197
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "round": 15,
+    "clients": {
+      "Medium_Urban_Canyon": {
+        "position_error_MAE_m": 2.7734248638153076,
+        "position_error_RMSE_m": 3.025160187822672,
+        "position_error_R2": -6.457278728485107,
+        "quality_accuracy": 0.4380664652567976,
+        "quality_macro_precision": 0.24986709197235513,
+        "quality_macro_recall": 0.38935969868173254,
+        "quality_macro_f1": 0.2441654748662535,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            55,
+            28
+          ],
+          [
+            0,
+            138,
+            98
+          ],
+          [
+            0,
+            5,
+            7
+          ]
+        ]
+      },
+      "Deep_Urban_Canyon": {
+        "position_error_MAE_m": 1.624145746231079,
+        "position_error_RMSE_m": 2.0245351281334654,
+        "position_error_R2": 0.20779383182525635,
+        "quality_accuracy": 0.552870090634441,
+        "quality_macro_precision": 0.4008385744234801,
+        "quality_macro_recall": 0.4100505501040737,
+        "quality_macro_f1": 0.3792763092958525,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            21,
+            0
+          ],
+          [
+            0,
+            105,
+            28
+          ],
+          [
+            0,
+            99,
+            78
+          ]
+        ]
+      },
+      "Harsh_Urban_Canyon": {
+        "position_error_MAE_m": 3.1588633060455322,
+        "position_error_RMSE_m": 4.164749289267729,
+        "position_error_R2": -0.22529029846191406,
+        "quality_accuracy": 0.5287009063444109,
+        "quality_macro_precision": 0.3990551776266062,
+        "quality_macro_recall": 0.46817783279178915,
+        "quality_macro_f1": 0.3299957618139436,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            43,
+            3
+          ],
+          [
+            0,
+            149,
+            132
+          ]
+        ]
+      },
+      "Tunnel": {
+        "position_error_MAE_m": 4.7325615882873535,
+        "position_error_RMSE_m": 6.006592943005126,
+        "position_error_R2": -0.6462534666061401,
+        "quality_accuracy": 0.5558912386706949,
+        "quality_macro_precision": 0.3592828238506167,
+        "quality_macro_recall": 0.4389004046984503,
+        "quality_macro_f1": 0.29504377213116645,
+        "quality_confusion_matrix_labels_High_Medium_Low": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            17,
+            5
+          ],
+          [
+            0,
+            140,
+            167
+          ]
+        ]
+      }
+    }
+  }
+]
