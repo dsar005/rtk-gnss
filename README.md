@@ -15,6 +15,17 @@ The CSVs in `data/sample/` are **synthetic demonstration data**, not your actual
 7. Each client trains a local copy. FedAvg combines client model weights; FedProx adds a penalty that limits local model drift for non-identically distributed (non-IID) environments.
 8. Held-out later portions of each client dataset are evaluated using MAE, RMSE, R², accuracy, macro precision/recall/F1 and confusion matrix.
 
+## UrbanNav Dataset Support & Real-Data Conversion
+This project is configured to match the coordinate frames and sensor conventions of the [PolyU UrbanNav Dataset](https://github.com/IPNL-POLYU/UrbanNavDataset):
+- **Coordinate Frame:** Local metric East-North-Up (`gnss_e, gnss_n, gnss_u` and `gt_e, gt_n, gt_u`).
+- **IMU:** Angular velocity (`gyro_x, gyro_y, gyro_z` in rad/s) and acceleration (`accel_x, accel_y, accel_z` in m/s²).
+- **GNSS metrics:** Speed, carrier-to-noise ratio (`gnss_cn0`), visible satellite count (`gnss_satellites`), and `gnss_hdop`.
+
+To convert downloaded UrbanNav sequences (IMU CSV + NovAtel/Receiver trajectories in WGS84 lat/lon/alt) into synchronized client CSVs:
+```powershell
+python src/convert_urbannav.py --imu path/to/imu.csv --gnss path/to/gnss_solution.csv --gt path/to/ground_truth.csv --output data/urbannav/Medium_Urban_Canyon.csv
+```
+
 ## Install and run (Windows PowerShell)
 ```powershell
 py -m venv .venv
